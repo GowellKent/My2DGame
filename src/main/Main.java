@@ -18,7 +18,6 @@ public class Main {
         window.setResizable(false);
         window.setTitle("2D Adventure");
 
-        KeyHandler keyH = new KeyHandler();
         GamePanel gamePanel = new GamePanel();
 
         window.add(gamePanel);
